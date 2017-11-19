@@ -5,7 +5,9 @@ var app = express()
 app.get("/", function(req, resp){
   const viewData = ()
   resp.render("index", {
-    name: "Jennifer"
+    name: "Jennifer",
+    school: "Flatiron School"
+    secret power: "Intuition"
   })
 })
 
