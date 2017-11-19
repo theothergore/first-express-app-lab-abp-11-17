@@ -9,7 +9,7 @@ app.get("/", function(req, resp){
     school: "Flatiron School"
     secret power: "Intuition"
   })}
-  
+
 })
 
 module.exports = app
