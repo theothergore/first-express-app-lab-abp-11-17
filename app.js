@@ -7,7 +7,7 @@ app.get("/", function(req, resp){
     resp.render({
     name: "Jennifer",
     school: "Flatiron School"
-    secret power: "Intuition"
+    secret power: "Intuition";
   })}
 
 })
