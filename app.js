@@ -4,7 +4,7 @@ var app = express()
 // Build Your Route Here
 app.get("/", function(req, resp){
   const viewData = {
-    resp.render("index", {
+    resp.render({
     name: "Jennifer",
     school: "Flatiron School"
     secret power: "Intuition"
